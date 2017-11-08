@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html,
+body {
+    background-color: #222;
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+.splash {
+	background-image: url(../imgs/nathan-anderson-108136.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.logo-splash {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+}
+
+.logo {
+    max-width: 500px;
+}
